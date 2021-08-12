@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <TableRow
+        android:id="@+id/vehicle_ne14"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary3"
+        app:layout_constraintBottom_toTopOf="@+id/guideline88"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline88" />
+
+    <TableRow
+        android:id="@+id/vehicle_ne5"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/dark_grey"
+        app:layout_constraintBottom_toTopOf="@+id/guideline99"
+        app:layout_constraintEnd_toStartOf="@+id/guideline96"
+        app:layout_constraintStart_toStartOf="@+id/guideline91"
+        app:layout_constraintTop_toTopOf="@+id/guideline99" />
+
+    <TableRow
+        android:id="@+id/vehicle_ne2"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/guideline102"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline102" />
+
+    <ImageButton
+        android:id="@+id/vehicle_2wheeler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/box_orange"
+        app:layout_constraintBottom_toTopOf="@+id/guideline93"
+        app:layout_constraintEnd_toStartOf="@+id/guideline94"
+        app:layout_constraintStart_toStartOf="@id/guideline91"
+        app:layout_constraintTop_toTopOf="@+id/guideline92" />
+
+
+    <ImageButton
+        android:id="@+id/vehicle_4wheeler"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/box_orange"
+        app:layout_constraintBottom_toTopOf="@+id/guideline93"
+        app:layout_constraintEnd_toStartOf="@+id/guideline96"
+        app:layout_constraintStart_toStartOf="@+id/guideline95"
+        app:layout_constraintTop_toTopOf="@+id/guideline92" />
+
+
+    <Spinner
+        android:id="@+id/vehicle_spinner"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@null"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/guideline99"
+        app:layout_constraintEnd_toStartOf="@+id/vehicle_ne11"
+        app:layout_constraintStart_toEndOf="@+id/vehicle_ne10"
+        app:layout_constraintTop_toTopOf="@+id/vehicle_ne11"></Spinner>
+
+
+    <Button
+        android:id="@+id/vehicle_continue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/button"
+        android:text="Continue"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/segoepro_regular"
+        android:textSize="@dimen/textsize20"
+        app:layout_constraintBottom_toTopOf="@+id/guideline98"
+        app:layout_constraintEnd_toStartOf="@+id/guideline96"
+        app:layout_constraintStart_toStartOf="@+id/guideline91"
+        app:layout_constraintTop_toTopOf="@+id/guideline97" />
+
+    <TextView
+        android:id="@+id/vehicle_ne11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="in color"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize18"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintBottom_toTopOf="@+id/guideline99"
+        app:layout_constraintStart_toStartOf="@+id/guideline101" />
+
+    <TextView
+        android:id="@+id/vehicle_ne7"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/or"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/textsize20"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintBottom_toTopOf="@+id/guideline93"
+        app:layout_constraintEnd_toStartOf="@+id/vehicle_4wheeler"
+        app:layout_constraintStart_toEndOf="@+id/vehicle_2wheeler"
+        app:layout_constraintTop_toTopOf="@+id/guideline92" />
+
+    <TextView
+        android:id="@+id/vehicle_customer"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text=" customer care"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/TextSize14"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline103"
+        app:layout_constraintTop_toTopOf="@+id/guideline102" />
+
+    <TextView
+        android:id="@+id/vehicle_ne6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Need help? Contact "
+        android:textSize="@dimen/TextSize14"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline103"
+        app:layout_constraintTop_toTopOf="@+id/guideline102" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cocogoose_trial"
+        android:text="VEHICLE TYPE"
+        android:textColor="@color/orange_light"
+        android:textSize="@dimen/textsize20"
+        app:layout_constraintStart_toStartOf="@+id/guideline60"
+        app:layout_constraintTop_toTopOf="@+id/guideline59" />
+
+    <TextView
+        android:id="@+id/vehicle_ne8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="2 Wheeler"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize20"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintEnd_toEndOf="@+id/vehicle_2wheeler"
+        app:layout_constraintStart_toStartOf="@+id/vehicle_2wheeler"
+        app:layout_constraintTop_toBottomOf="@+id/vehicle_2wheeler" />
+
+    <TextView
+        android:id="@+id/vehicle_ne10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My vehicle is"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize18"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintBottom_toTopOf="@+id/guideline99"
+        app:layout_constraintStart_toStartOf="@+id/guideline100" />
+
+    <TextView
+        android:id="@+id/vehicle_ne3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VEHICLE TYPE"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/textsize22"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintStart_toStartOf="@+id/guideline91"
+        app:layout_constraintTop_toTopOf="@+id/guideline90" />
+
+    <TextView
+        android:id="@+id/vehicle_ne9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="4 Wheeler"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/textsize20"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintEnd_toEndOf="@+id/vehicle_4wheeler"
+        app:layout_constraintStart_toStartOf="@+id/vehicle_4wheeler"
+        app:layout_constraintTop_toBottomOf="@+id/vehicle_4wheeler" />
+
+    <TextView
+        android:id="@+id/vehicle_ne4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Help us identify your vehicle"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/TextSize14"
+        android:fontFamily="@font/segoepro_regular"
+        app:layout_constraintStart_toStartOf="@+id/guideline91"
+        app:layout_constraintTop_toBottomOf="@+id/vehicle_ne3" />
+
+    <ImageView
+        android:id="@+id/vehicle_back"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline88"
+        app:layout_constraintEnd_toStartOf="@+id/guideline76"
+        app:layout_constraintStart_toStartOf="@+id/guideline75"
+        app:layout_constraintTop_toTopOf="@+id/guideline87"
+        app:srcCompat="@drawable/ic_left_arrow" />
+
+    <TextView
+        android:id="@+id/vehi_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/vehicle_back"
+        app:layout_constraintEnd_toEndOf="@+id/vehicle_back" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".0275" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline88"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".125" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline92"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".2387" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline93"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".4287" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline97"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".6687" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".5906" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline102"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".9375" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline98"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".7312" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline87"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".01" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".192" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".04" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline91"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05333" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".06933" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".6947" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline94"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".4507" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5333" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline103"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".5653" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline96"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".9307" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".15" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
